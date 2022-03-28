@@ -1,0 +1,51 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = LeagueBlazor
+build_property.RootNamespace = LeagueBlazor
+build_property.ProjectDir = C:\Users\dario\Documents\Arbeit\LeagueBlazor\LeagueBlazor\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dario\Documents\Arbeit\LeagueBlazor\LeagueBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dario/Documents/Arbeit/LeagueBlazor/LeagueBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dario/Documents/Arbeit/LeagueBlazor/LeagueBlazor/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dario/Documents/Arbeit/LeagueBlazor/LeagueBlazor/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dario/Documents/Arbeit/LeagueBlazor/LeagueBlazor/Pages/League.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhZ3VlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dario/Documents/Arbeit/LeagueBlazor/LeagueBlazor/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dario/Documents/Arbeit/LeagueBlazor/LeagueBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dario/Documents/Arbeit/LeagueBlazor/LeagueBlazor/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-61wmzybinh
+
+[C:/Users/dario/Documents/Arbeit/LeagueBlazor/LeagueBlazor/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ba1wyhen0c

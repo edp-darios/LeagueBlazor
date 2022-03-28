@@ -1,0 +1,72 @@
+﻿@page "/league"
+@using System.Text.Json;
+@using LeagueBlazor.Classes;
+@inject HttpClient Http
+
+<PageTitle>League</PageTitle>
+
+<h1>League</h1>
+
+<br>
+
+<select @onchange="changeGame">
+    <option value="league">league</option>
+    <option vlaue="challange-league">challenge-league</option>
+    <option vlaue="plauschturnier">plauschturnier</option>
+    <option vlaue="sorting">sorting</option>
+</select>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>#</th>
+            <th>Wins</th>
+            <th>Draws</th>
+            <th>Losses</th>
+            <th>Goals</th>
+            <th>Goals Received</th>
+            <th>Goals Difference</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (TableRow row in Rows)
+        {
+            <tr>
+                <td>@row.teamName</td>
+                <td>@rowCounter </td>
+                <td>@row.teamWins</td>
+                <td>@row.teamDraws</td>
+                <td>@row.teamLosses</td>
+                <td>@row.teamGoals</td>
+                <td>@row.teamGoalsReceived</td>
+                <td>@row.teamGoalDifference</td>
+                <td>@row.teamPoints</td>
+            </tr>
+            rowCounter++;
+        }
+    </tbody>
+</table>
+
+@code {
+    List<TableRow>? Rows;
+    private int rowCounter = 1;
+
+    protected override async Task OnInitializedAsync()
+    {
+        rowCounter = 1;
+        List<Match> matches = await Http.GetFromJsonAsync<List<Match>>("sample-data/challenge-league.json");
+        Table superLeagueTable = Table.CreateTable(matches);
+        Rows = superLeagueTable.getRows();
+    }
+
+    public async void changeGame(ChangeEventArgs e)
+    {
+        rowCounter = 1;
+        Console.Write(e.Value.ToString());
+        List<Match> matches = await Http.GetFromJsonAsync<List<Match>>("sample-data/" + e.Value.ToString() + ".json");
+        Table superLeagueTable = Table.CreateTable(matches);
+        Rows = superLeagueTable.getRows(); 
+    }
+}
