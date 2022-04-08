@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HwHYy728kkZ+2r59ShUiHVjKMEvWz4KSn5m2aMIum6E=",
+  "Hash": "lECAZy1/Q7Xr/hkf17hibrU3MvTT8qmRNyz+qOcrpWU=",
   "Source": "LeagueBlazor",
   "BasePath": "/",
   "Mode": "Root",
@@ -7155,23 +7155,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sample-data\\sorting.json"
-    },
-    {
-      "Identity": "C:\\Users\\dario\\Documents\\Arbeit\\LeagueBlazor\\LeagueBlazor\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "LeagueBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dario\\Documents\\Arbeit\\LeagueBlazor\\LeagueBlazor\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }
